@@ -97,7 +97,7 @@
       <!--Footer Information-->
       <section>
         <ul id="partners">
-          <li class="partner">
+          <!--<li class="partner">
             <img src="images/partner-bustour.png" alt="Partner Bus Tours" />
           </li>
           <li class="partner">
@@ -126,7 +126,7 @@
           </li>
           <li class="partner">
             <img src="images/partner-tourgroup.png" alt="Partner Tour Group" />
-          </li>
+          </li>-->
         </ul>
       </section>
       <footer>
@@ -148,5 +148,22 @@
       </footer>
     </div>
     <!--End Container-->
+    <script>
+      var picnames = [];
+      var partners = [];
+      var partnerList = [];
+      var image;
+      var openList = "<li id='partner'>";
+      var closeList = "</li>";
+
+      for (var i = 0; i < 6; i++) {
+        picnames.push("partner" + (i + 1));
+        partners.push("<img src='images/" + picnames[i] + ".png'>");
+        image = openList + partners[i] + closeList;
+        partnerList.push(image);
+      }
+      document.getElementById("partners").innerHTML = partnerList.join("");
+
+    </script>
   </body>
 </html>
