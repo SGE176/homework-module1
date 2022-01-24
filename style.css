@@ -15,7 +15,7 @@
         height:30px;
         padding-top:15px;
         position: relative;
-        top:340px;
+        top:360px;
         background-image:linear-gradient(to top, rgba(251,215,139,1) 0%, rgba(118,213,245,1)100%);
       }
       #home header #timeofday #clock{
@@ -257,4 +257,4 @@
       pictures #cliffs .cliff img {
         width: 400px;
         height: 200px;
-      
+      }
