@@ -219,10 +219,13 @@
           font-weight: bold;
       }
       form .button input{
-          position: relative;
-          left:320px;
-          color: #fff;
-          background-color: #4977d1;
+          width: 8em;
+          height: 2.5em;
+          font-size:1.2em;
+          font-weight:bold;
+          border:none;
+          color: #ffffff;
+          /*background-color: #4977d1;*/
       }
       form select{
           width:100px;
